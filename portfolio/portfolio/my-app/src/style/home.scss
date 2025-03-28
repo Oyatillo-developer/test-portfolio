@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/particle.jpg);
+    background-size: cover;
+    .boss{
+        width: 90%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .text{
+            width: 40%;
+            height: 40vh;
+            display: flex;
+            align-items: start;
+            justify-content: space-around;
+            flex-direction: column;
+            .hi{
+                width: 100%;
+                height: 10vh;
+                h1{
+                    font-size: 40px;
+                    font-family: sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                }
+                p{
+                    font-size: 40px;
+                    font-family: sans-serif;
+                    font-weight: 500;
+                    color: #C778DD;
+                }
+            }
+            .info{
+                width: 100%;
+                height: 10vh;
+                p{
+                    font-size: 18px;
+                    font-family: sans-serif;
+                    font-weight: 300;
+                    color: #bdb8b8;
+                    line-height: 25px;
+                }
+            }
+            button{
+                width: 35%;
+                height: 7vh;
+                background: none;
+                border: 2px solid #C778DD;
+                font-size: 18px;
+                font-family: sans-serif;
+                font-weight: 100;
+                color: #ffffff;
+                border-radius: 10px;
+                &:hover{
+                    cursor: pointer;
+                    box-shadow: 0 0 10px #C778DD ;
+                }
+                &:active{
+                    background: #ffffff;
+                    color: #282C33;
+                    transition: all 0.4s;
+                }
+            }
+        }
+        .img{
+            width: 40%;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 80%;
+                border-radius: 500px;
+            }
+        }
+    }
+}

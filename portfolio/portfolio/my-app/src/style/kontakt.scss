@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css);
+
+.its{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #282C33;
+    .me{
+        width: 90%;
+        height: 70vh;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: column;
+        .app{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            .how{
+                width: 13%;
+                height: 10vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p{
+                    font-size: 25px;
+                    font-family: sans-serif;
+                    font-weight: 500;
+                    color: #763FC2;
+                }
+                h1{
+                    font-size: 25px;
+                    font-family: sans-serif;
+                    font-weight: 500;
+                    color: #ffffff;
+                }
+            }
+            .line{
+                width: 30%;
+                height: 1px;
+                border: 1px solid #763FC2;
+            }
+        }
+        .bbc{
+            width: 95%;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .register{
+                width: 45%;
+                height: 40vh;
+                display: flex;
+                align-items: start;
+                justify-content: space-around;
+                flex-direction: column;
+                .one{
+                    width: 100%;
+                    height: 5vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    input{
+                        width: 48%;
+                        height: 5vh;
+                        color: #ffffff;
+                        background: none;
+                        border: 1px solid #9BA2AE;
+                        outline: none;
+                        font-size: 14px;
+                        font-family: sans-serif;
+                        font-weight: 300;
+                        margin-right: 12px;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                        &::placeholder{
+                            padding: 10px;
+                            font-size: 14px;
+                            font-family: sans-serif;
+                            font-weight: 300;
+                            color: #9BA2AE;
+                        }
+                    }
+                }
+                .one2{
+                    width: 98%;
+                    height: 5vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    input{
+                        width: 100%;
+                        height: 5vh;
+                        color: #ffffff;
+                        background: none;
+                        border: 1px solid #9BA2AE;
+                        outline: none;
+                        font-size: 14px;
+                        font-family: sans-serif;
+                        font-weight: 300;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                        &::placeholder{
+                            padding: 10px;
+                            font-size: 14px;
+                            font-family: sans-serif;
+                            font-weight: 300;
+                            color: #9BA2AE;
+                        }
+                    }
+                }
+                .one3{
+                    width: 98%;
+                    height: 15vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    input{
+                        width: 100%;
+                        height: 15vh;
+                        color: #ffffff;
+                        background: none;
+                        border: 1px solid #9BA2AE;
+                        outline: none;
+                        font-size: 14px;
+                        font-family: sans-serif;
+                        font-weight: 300;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                        &::placeholder{
+                            padding: 10px;
+                            font-size: 14px;
+                            font-family: sans-serif;
+                            font-weight: 300;
+                            color: #9BA2AE;
+                            text-align: left;
+                        }
+                    }
+                }
+                button{
+                    width: 20%;
+                    height: 6vh;
+                    background: none;
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-family: sans-serif;
+                    font-weight: 100;
+                    border: 1px solid #763FC2;
+                    &:hover{
+                        cursor: pointer;
+                        box-shadow: 0 3px 5px #4f435e;
+                    }
+                    &:active{
+                        background: #9BA2AE;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+            .son{
+                width: 48%;
+                height: 40vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .massage{
+                    width: 50%;
+                    height: 28vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    border: 1px solid #9BA2AE;
+                    margin-bottom: 50px;
+                    margin-left: 80px;
+                    h1{
+                        font-size: 18px;
+                        font-family: sans-serif;
+                        font-weight: 200;
+                        color: #ffffff;
+                    }
+                    .icon{
+                        width: 100%;
+                        height: 3vh;
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        padding: 20px;
+                        border-top: 1px solid #ABB2BF;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                        i{
+                            font-size: 18px;
+                            color: #ABB2BF;
+                        }
+                        h1{
+                            font-size: 13px;
+                            font-family: sans-serif;
+                            font-weight: 200;
+                            color: #ffffff;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
